@@ -1,0 +1,53 @@
+{
+    "name": "folio-25",
+    "version": "0.1.1",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "build:dev": "vue-cli-service build --mode development",
+        "dev": "vue-cli-service serve --mode development",
+        "start": "npm run dev"
+    },
+    "dependencies": {
+        "@ykob/glsl-util": "^1.1.0",
+        "@ykob/js-util": "^2.0.0",
+        "core-js": "^3.41.0",
+        "dat.gui": "^0.7.9",
+        "easing-js": "git://github.com/danro/easing-js.git",
+        "glsl-inverse": "^1.0.0",
+        "glsl-noise": "0.0.0",
+        "lodash": "^4.17.20",
+        "normalize-wheel": "^1.0.1",
+        "register-service-worker": "^1.6.2",
+        "sass": "^1.86.3",
+        "three": "^0.130.1",
+        "ua-parser-js": "^0.7.40",
+        "vue": "^2.7.16",
+        "vue-meta": "^2.4.0",
+        "vue-router": "^3.6.5",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.5.19",
+        "@vue/cli-plugin-pwa": "^4.5.19",
+        "@vue/cli-service": "^4.5.19",
+        "glslify-import-loader": "^0.1.2",
+        "glslify-loader": "^2.0.0",
+        "prettier": "^1.19.1",
+        "raw-loader": "^4.0.1",
+        "sass-loader": "^8.0.2",
+        "vue-cli-plugin-pug": "^1.0.7",
+        "vue-template-compiler": "^2.7.16",
+        "webpack-bundle-analyzer": "^3.9.0"
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
